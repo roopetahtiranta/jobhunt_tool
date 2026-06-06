@@ -1,0 +1,6 @@
+{
+  "name": "jobhunt",
+  "version": "0.1.0",
+  "description": "AI job-application copilot: build an applicant profile, find matching postings, and analyze them for fit, positioning, flags, and tailored talking points.",
+  "author": "Roope Tähtiranta"
+}
