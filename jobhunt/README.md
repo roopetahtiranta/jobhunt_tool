@@ -53,6 +53,17 @@ No API keys are required.
 2. Start with `profile-builder` ("build my profile"), then use `job-finder`
    ("find me jobs") and `posting-analyzer` ("analyze this job") as needed.
 
+## Two ways to invoke each skill
+
+- **Natural language (skills auto-trigger):** just describe the task — *"build my
+  jobhunt profile from my sources folder"*, *"find me jobs"*, *"analyze this posting:
+  <url>"*. Skills are model-invoked from their descriptions.
+- **Slash commands:** the plugin also ships explicit commands, so you can type them
+  directly:
+  - `/jobhunt:profile-builder [folder]`
+  - `/jobhunt:job-finder [folder | boards]`
+  - `/jobhunt:posting-analyzer <url | pasted text | matches.md entry>`
+
 ## Typical workflow
 
 1. **profile-builder** → drop your CV/LinkedIn into `sources/`, answer a few gap

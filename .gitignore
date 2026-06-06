@@ -1,0 +1,12 @@
+# Personal job-hunt data — never commit CVs or LinkedIn exports
+/source/
+source/
+sources/
+
+# Runtime artifacts produced by the skills (live in a user's working folder,
+# but ignore them anywhere in case the plugin dir is used as a workspace).
+# Note: the plugin's own files are profile-TEMPLATE.md / matches-TEMPLATE.md
+# and the fixtures are sample-*.md, so these exact names are safe to ignore.
+profile.md
+matches.md
+analyses/
